@@ -39,6 +39,7 @@ function requestUserRepos(username) {
 		while (root.firstChild) {
 			root.removeChild(root.firstChild);
 		}
+
 		if (data.message === "Not Found") {
 
 			let ul = document.getElementById('userRepos');
